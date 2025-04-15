@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(255, 188, 244, 0.488);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: rgb(2, 128, 0);
+    margin-right: 20px;
+  }
+h3 {
+    color:rgba(172, 199, 129, 0.658)
+}
