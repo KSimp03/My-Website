@@ -1,4 +1,6 @@
 # My-Website
 ## By Kyeisha Simpson
 This is a website for my final project
-## To DO
+## TODO
+# Add more images
+# Add some colors to the text
