@@ -2,30 +2,65 @@
     color:green;
 }*/
 /* an id (identifying one element) and class(several elements) are different*/
+/*
 body{
     background-color: rgba(255, 188, 244, 0.488);
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+}*/
 h1 {
     color: rgb(2, 128, 0);
     margin-right: 20px;
   }
-h3 {
-    color:rgba(172, 199, 129, 0.658)
+/*h3 {
+    color:rgba(52, 182, 132, 0.658)
 }
-/* ID selector*/
-#headline{
-    font-size: 50px;
-}
+ ID selector*/
+/*#headline{
+    font-size: 50px;s
+    color: green;
+}*/
 /*Class selector*/
 .underline{
    font-variant: small-caps;
 }
 /*TYPE SELECTOR (this one is changing p tag)*/
 p {
-    color: blueviolet;
+    /*color: blueviolet;*/
+    color:rgb(95, 192, 95);
 }
 /*img float
 img{
     float:right;
 }*/
+/*all of the p elements on the main portion will be this..*/
+main p {
+    color: rgb(169, 4, 4);
+    font-family: fantasy;
+    font-size: larger;
+  }
+header p {
+    font-size: larger;
+    font-stretch: ultra-expanded;
+    text-align: center;
+}
+
+
+/*********/
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2 {
+    text-align: center;
+    color: #d6336c;
+    font-weight: bolder;
+}
+
+nav p.underline {
+    font-weight: bold;
+    color: #f06292;
+}
