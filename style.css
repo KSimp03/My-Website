@@ -1,3 +1,7 @@
+/*"the *" *{adds to all of the webpage
+    color:green;
+}*/
+/* an id (identifying one element) and class(several elements) are different*/
 body{
     background-color: rgba(255, 188, 244, 0.488);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,3 +13,19 @@ h1 {
 h3 {
     color:rgba(172, 199, 129, 0.658)
 }
+/* ID selector*/
+#headline{
+    font-size: 50px;
+}
+/*Class selector*/
+.underline{
+   font-variant: small-caps;
+}
+/*TYPE SELECTOR (this one is changing p tag)*/
+p {
+    color: blueviolet;
+}
+/*img float
+img{
+    float:right;
+}*/
