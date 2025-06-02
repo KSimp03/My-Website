@@ -20,6 +20,10 @@ header {
     color: #d63384;
 }
 
+#strawberryland{
+    text-align: center;
+}
+
 
 /* Navigation bar styled as a flex container */
 nav {
@@ -33,18 +37,22 @@ nav {
     border-bottom: 3px solid #ff99cc;
 }
 
-nav .underline {
-    text-decoration: #4b004b;
+.nav-flex {
+  display: flex;               
+  justify-content: center;   
+  flex-wrap: wrap;            
+  background-color: #ffc8dd;
+  padding: 1rem;
 }
 
-footer {
-    text-align: center;
-    background-color: #ffe4e1;
-    padding: 10px;
-    margin-top: 30px;
-    font-size: 0.9em;
-    border-top: 2px solid #ffb6c1;
+/* Optional: style the links */
+.nav-flex a {
+  text-decoration: none;
+  color: #a0004d;
+  font-weight: bold;
 }
+
+
 a:hover{
     background-color: rgb(250, 207, 246);
     font-size: larger;
@@ -91,6 +99,20 @@ img {
     border: 4px dashed #ff69b4;
     border-radius: 12px;
 }
+.img-left {
+  float: left;
+  margin: 0 20px 20px 0; 
+  max-width: 300px;
+  border: 4px dashed #ff69b4;
+  border-radius: 12px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 
@@ -165,4 +187,25 @@ a:hover {
 .scalable-img {
     max-width: 100%;
     height: auto;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #ffe6f1; /* light pink strawberry theme */
+  justify-items: center;
+  align-items: center;
+}
+
+/* General image styling */
+.photo-gallery img {
+  width: 100%;
+  max-width: 250px;
+  border: 4px solid white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border-radius: 8px;
 }

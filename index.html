@@ -12,37 +12,47 @@
     <header>
         <img src="img/ban.webp" width="1600px" alt="Banner of a strawberry field">
         <h1 id="headline">Life is Delicious!</h1>
-        <nav>
-            <a href="strawberry.html">About Strawberry Shortcake</a>
-            <a href="index.html" class="underline">Home</a>
-            <a href="photos.html" class="underline">Gallery</a>
-        </nav>
+        <!-- In your HTML (already done, just add the class) -->
+        <header>
+            <nav class="nav-flex">
+                <a href="index.html">Home</a>
+                <a href="strawberry.html">About Strawberry</a>
+                <a href="photos.html">Photo Gallery</a>
+            </nav>
+        </header>
+
         <p class="underline"> We're so excited to get to know you! Let us introduce ourselves:</p>
+
+
+
 
     </header>
     <main>
-        <section>
-            <h2>Meet the Sweethearts of Strawberryland</h2>
-            <ul>
-                <li><strong>Strawberry Shortcake:</strong> A cheerful leader who loves baking and making new friends.
-                </li><img src="img/Strawberry_Shortcake.webp" alt="Image of Strawberry Shortcake">
-                <li><strong>Peppermint Fizz:</strong> A competitive cutie who always wants to be the best — but with heart.</li>
-                <img src="img/peppermint fizz.jpg" alt="Image of Peppermint Fizz">
-                <li><strong>Apple Dumpling:</strong> The littlest sweetheart who sees magic in everything!</li>
-                <img src="img/dumplin.jpg" alt="Image of Apple Dumpling">
-                <li><strong>Annie Oatmeal:</strong> A sporty gal who loves animals and outdoor fun.</li>
-                <img src="img/annie.jpg" width="300px" alt="Image of Annie Oatmeal">
-            </ul>
+            <section>
+                <h2>Meet the Sweethearts of Strawberryland</h2>
 
-            <!--<p>Hi, I'm Strawberry Shortcake!</p>
-        
-        <p>Hi, I'm Peppermint Fizz!!</p>
-       
-        <p>Hi, I'm Apple Dumpling!</p>
-        
-        <p> Hi, I'm Annie Oatmeal!</p>
-        -->
-        </section>
+                <div class="clearfix">
+                    <img src="img/Strawberry_Shortcake.webp" alt="Image of Strawberry Shortcake" class="img-left">
+                    <p><strong>Strawberry Shortcake:</strong> A cheerful leader who loves baking and making new friends.
+                    </p>
+                </div>
+
+                <div class="clearfix">
+                    <img src="img/peppermint fizz.jpg" alt="Image of Peppermint Fizz" class="img-left">
+                    <p><strong>Peppermint Fizz:</strong> A competitive cutie who always wants to be the best — but with
+                        heart.</p>
+                </div>
+
+                <div class="clearfix">
+                    <img src="img/dumplin.jpg" alt="Image of Apple Dumpling" class="img-left">
+                    <p><strong>Apple Dumpling:</strong> The littlest sweetheart who sees magic in everything!</p>
+                </div>
+
+                <div class="clearfix">
+                    <img src="img/annie.jpg" width="300px" alt="Image of Annie Oatmeal" class="img-left">
+                    <p><strong>Annie Oatmeal:</strong> A sporty gal who loves animals and outdoor fun.</p>
+                </div>
+            </section>
 
         <section>
             <h2>Did You Know?</h2>
@@ -50,7 +60,7 @@
             <p>🍬 Peppermint Fizz is known for her love of sports and peppermint-scented style.</p>
             <p>👶 Apple Dumpling often speaks in rhyme — she's too cute to handle!</p>
         </section>
-
+    
     </main>
 
     <footer>
