@@ -1,11 +1,14 @@
 /* Background gradient and general font */
 body {
-    font-family: 'Verdana', sans-serif;
+   /* font-family: 'Verdana', sans-serif;*/
     margin: 0;
     background: linear-gradient(to bottom right, #fff0f5, #ffe6f0);
     color: #4b004b;
-    line-height: 1.6;
+    line-height: 1.6; 
+    font-family: 'Savate', sans-serif;
 }
+
+
 
 /* Header section */
 header {
